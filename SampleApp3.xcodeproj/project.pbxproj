@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562D298F291B72490054FBBA /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D298E291B72490054FBBA /* AVKit.framework */; };
+		562D2991291B72550054FBBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D2990291B72550054FBBA /* UIKit.framework */; };
+		562D2993291B72630054FBBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D2992291B72630054FBBA /* Foundation.framework */; };
+		562D2995291B72770054FBBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D2994291B72770054FBBA /* CoreGraphics.framework */; };
+		562D2997291B72870054FBBA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D2996291B72870054FBBA /* QuartzCore.framework */; };
+		562D2999291B728F0054FBBA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D2998291B728F0054FBBA /* SystemConfiguration.framework */; };
+		562D299B291B72A40054FBBA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D299A291B72A40054FBBA /* MediaPlayer.framework */; };
+		562D299D291B72AF0054FBBA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D299C291B72AF0054FBBA /* CFNetwork.framework */; };
+		562D299F291B72E10054FBBA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D299E291B72E10054FBBA /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		562D29A1291B72F30054FBBA /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D29A0291B72F30054FBBA /* EventKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		562D29A3291B73030054FBBA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D29A2291B73030054FBBA /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		562D29B2291CCC800054FBBA /* libCauly-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 562D29A9291CBC580054FBBA /* libCauly-universal.a */; };
+		564D751D2927642500F11BF0 /* DiloSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564D751C2927642500F11BF0 /* DiloSDK.xcframework */; };
+		564D751E2927642500F11BF0 /* DiloSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 564D751C2927642500F11BF0 /* DiloSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC415273265DD30300EC7F4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC415272265DD30300EC7F4C /* AppDelegate.swift */; };
+		EC415275265DD30300EC7F4C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC415274265DD30300EC7F4C /* SceneDelegate.swift */; };
+		EC415277265DD30300EC7F4C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC415276265DD30300EC7F4C /* MainViewController.swift */; };
+		EC41527A265DD30300EC7F4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC415278265DD30300EC7F4C /* Main.storyboard */; };
+		EC41527C265DD30300EC7F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC41527B265DD30300EC7F4C /* Assets.xcassets */; };
+		EC41527F265DD30300EC7F4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC41527D265DD30300EC7F4C /* LaunchScreen.storyboard */; };
+		EC415288265DE38E00EC7F4C /* AdSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC415287265DE38E00EC7F4C /* AdSettingViewController.swift */; };
+		EC41528A265DEDD500EC7F4C /* DataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC415289265DEDD500EC7F4C /* DataDelegate.swift */; };
+		EC41528C265DF5BB00EC7F4C /* DefaultPickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC41528B265DF5BB00EC7F4C /* DefaultPickerViewDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		564D751F2927642600F11BF0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				564D751E2927642500F11BF0 /* DiloSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		562D298E291B72490054FBBA /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		562D2990291B72550054FBBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		562D2992291B72630054FBBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		562D2994291B72770054FBBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		562D2996291B72870054FBBA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		562D2998291B728F0054FBBA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		562D299A291B72A40054FBBA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		562D299C291B72AF0054FBBA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		562D299E291B72E10054FBBA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		562D29A0291B72F30054FBBA /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		562D29A2291B73030054FBBA /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		562D29A6291C933C0054FBBA /* CaulySDK-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CaulySDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		562D29A7291C934A0054FBBA /* cauly */ = {isa = PBXFileReference; lastKnownFileType = folder; path = cauly; sourceTree = "<group>"; };
+		562D29A9291CBC580054FBBA /* libCauly-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCauly-universal.a"; path = "SampleApp3/cauly/libCauly-universal.a"; sourceTree = "<group>"; };
+		564D751C2927642500F11BF0 /* DiloSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DiloSDK.xcframework; path = ../DiloSDK.xcframework; sourceTree = "<group>"; };
+		EC41526F265DD30300EC7F4C /* SampleApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC415272265DD30300EC7F4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC415274265DD30300EC7F4C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC415276265DD30300EC7F4C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EC415279265DD30300EC7F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC41527B265DD30300EC7F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC41527E265DD30300EC7F4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC415280265DD30300EC7F4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC415287265DE38E00EC7F4C /* AdSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdSettingViewController.swift; sourceTree = "<group>"; };
+		EC415289265DEDD500EC7F4C /* DataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDelegate.swift; sourceTree = "<group>"; };
+		EC41528B265DF5BB00EC7F4C /* DefaultPickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPickerViewDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC41526C265DD30300EC7F4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562D299D291B72AF0054FBBA /* CFNetwork.framework in Frameworks */,
+				562D298F291B72490054FBBA /* AVKit.framework in Frameworks */,
+				562D2999291B728F0054FBBA /* SystemConfiguration.framework in Frameworks */,
+				562D29A1291B72F30054FBBA /* EventKit.framework in Frameworks */,
+				562D2991291B72550054FBBA /* UIKit.framework in Frameworks */,
+				562D29A3291B73030054FBBA /* AdSupport.framework in Frameworks */,
+				562D2997291B72870054FBBA /* QuartzCore.framework in Frameworks */,
+				562D299F291B72E10054FBBA /* MessageUI.framework in Frameworks */,
+				564D751D2927642500F11BF0 /* DiloSDK.xcframework in Frameworks */,
+				562D2995291B72770054FBBA /* CoreGraphics.framework in Frameworks */,
+				562D299B291B72A40054FBBA /* MediaPlayer.framework in Frameworks */,
+				562D2993291B72630054FBBA /* Foundation.framework in Frameworks */,
+				562D29B2291CCC800054FBBA /* libCauly-universal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC415266265DD30300EC7F4C = {
+			isa = PBXGroup;
+			children = (
+				EC415271265DD30300EC7F4C /* SampleApp3 */,
+				EC415270265DD30300EC7F4C /* Products */,
+				EC41528D265E1E8C00EC7F4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC415270265DD30300EC7F4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC41526F265DD30300EC7F4C /* SampleApp3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC415271265DD30300EC7F4C /* SampleApp3 */ = {
+			isa = PBXGroup;
+			children = (
+				562D29A7291C934A0054FBBA /* cauly */,
+				562D29A6291C933C0054FBBA /* CaulySDK-Bridging-Header.h */,
+				EC415272265DD30300EC7F4C /* AppDelegate.swift */,
+				EC415274265DD30300EC7F4C /* SceneDelegate.swift */,
+				EC415276265DD30300EC7F4C /* MainViewController.swift */,
+				EC415278265DD30300EC7F4C /* Main.storyboard */,
+				EC41528B265DF5BB00EC7F4C /* DefaultPickerViewDelegate.swift */,
+				EC41527B265DD30300EC7F4C /* Assets.xcassets */,
+				EC41527D265DD30300EC7F4C /* LaunchScreen.storyboard */,
+				EC415280265DD30300EC7F4C /* Info.plist */,
+				EC415287265DE38E00EC7F4C /* AdSettingViewController.swift */,
+				EC415289265DEDD500EC7F4C /* DataDelegate.swift */,
+			);
+			path = SampleApp3;
+			sourceTree = "<group>";
+		};
+		EC41528D265E1E8C00EC7F4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				564D751C2927642500F11BF0 /* DiloSDK.xcframework */,
+				562D29A2291B73030054FBBA /* AdSupport.framework */,
+				562D29A0291B72F30054FBBA /* EventKit.framework */,
+				562D299E291B72E10054FBBA /* MessageUI.framework */,
+				562D299C291B72AF0054FBBA /* CFNetwork.framework */,
+				562D299A291B72A40054FBBA /* MediaPlayer.framework */,
+				562D2998291B728F0054FBBA /* SystemConfiguration.framework */,
+				562D2996291B72870054FBBA /* QuartzCore.framework */,
+				562D2994291B72770054FBBA /* CoreGraphics.framework */,
+				562D2992291B72630054FBBA /* Foundation.framework */,
+				562D2990291B72550054FBBA /* UIKit.framework */,
+				562D298E291B72490054FBBA /* AVKit.framework */,
+				562D29A9291CBC580054FBBA /* libCauly-universal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC41526E265DD30300EC7F4C /* SampleApp3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC415283265DD30300EC7F4C /* Build configuration list for PBXNativeTarget "SampleApp3" */;
+			buildPhases = (
+				EC41526B265DD30300EC7F4C /* Sources */,
+				EC41526C265DD30300EC7F4C /* Frameworks */,
+				EC41526D265DD30300EC7F4C /* Resources */,
+				564D751F2927642600F11BF0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleApp3;
+			productName = SampleApp3;
+			productReference = EC41526F265DD30300EC7F4C /* SampleApp3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC415267265DD30300EC7F4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EC41526E265DD30300EC7F4C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = EC41526A265DD30300EC7F4C /* Build configuration list for PBXProject "SampleApp3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC415266265DD30300EC7F4C;
+			productRefGroup = EC415270265DD30300EC7F4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC41526E265DD30300EC7F4C /* SampleApp3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC41526D265DD30300EC7F4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC41527F265DD30300EC7F4C /* LaunchScreen.storyboard in Resources */,
+				EC41527C265DD30300EC7F4C /* Assets.xcassets in Resources */,
+				EC41527A265DD30300EC7F4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC41526B265DD30300EC7F4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC415277265DD30300EC7F4C /* MainViewController.swift in Sources */,
+				EC415273265DD30300EC7F4C /* AppDelegate.swift in Sources */,
+				EC41528A265DEDD500EC7F4C /* DataDelegate.swift in Sources */,
+				EC41528C265DF5BB00EC7F4C /* DefaultPickerViewDelegate.swift in Sources */,
+				EC415288265DE38E00EC7F4C /* AdSettingViewController.swift in Sources */,
+				EC415275265DD30300EC7F4C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC415278265DD30300EC7F4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC415279265DD30300EC7F4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC41527D265DD30300EC7F4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC41527E265DD30300EC7F4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC415281265DD30300EC7F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC415282265DD30300EC7F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC415284265DD30300EC7F4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 16;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6ZJTSPAATA;
+				EXCLUDED_ARCHS = arm64;
+				HEADER_SEARCH_PATHS = "/Users/cauly/fsn/dilo/work/ios-sdk-with-cauly/SampleApp3/cauly";
+				INFOPLIST_FILE = SampleApp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleApp3/cauly",
+				);
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.dilo.dilosample3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleApp3/CaulySDK-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC415285265DD30300EC7F4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 16;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 6ZJTSPAATA;
+				EXCLUDED_ARCHS = arm64;
+				HEADER_SEARCH_PATHS = "/Users/cauly/fsn/dilo/work/ios-sdk-with-cauly/SampleApp3/cauly";
+				INFOPLIST_FILE = SampleApp3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleApp3/cauly",
+				);
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.dilo.dilosample3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleApp3/CaulySDK-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC41526A265DD30300EC7F4C /* Build configuration list for PBXProject "SampleApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC415281265DD30300EC7F4C /* Debug */,
+				EC415282265DD30300EC7F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC415283265DD30300EC7F4C /* Build configuration list for PBXNativeTarget "SampleApp3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC415284265DD30300EC7F4C /* Debug */,
+				EC415285265DD30300EC7F4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC415267265DD30300EC7F4C /* Project object */;
+}
